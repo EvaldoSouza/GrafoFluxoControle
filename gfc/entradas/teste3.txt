@@ -1,0 +1,6 @@
+L1: if i > k goto L2
+t1 = i + 1
+i = t1
+x[i] = 0
+goto L1
+L2: x[0] = 0
